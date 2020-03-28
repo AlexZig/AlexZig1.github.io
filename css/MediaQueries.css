@@ -1,0 +1,122 @@
+/*---------- Media Queries ----------*/
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+    .offer__text br {
+        display: none;
+    }
+    .devises {
+        margin: 0;
+    }
+    .ditailes__text br {
+        display: none;
+    }
+    .qoute:after {
+        right: 330px;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+    .offer {
+        text-align: center;
+        width: auto;
+        padding: 160px 0 0;
+    }
+    .offer__title {
+        margin: 0 auto;
+    }
+    .offer__btn {
+        margin: 0 auto;
+    }
+    .wheel {
+        margin: 0 auto ;
+        padding: 100px 0;
+    }
+    .topic {
+        margin-bottom: 30px;
+    }
+    .topic__text {
+        margin-top: 10px;
+    }
+    .devises {
+        margin-bottom: 20px;
+    }
+    .qoute {
+        margin: 35px 0 0;
+    }
+    .qoute:after {
+        bottom: -20px;
+        right: 0px;
+    }
+    .ditailes {
+        margin-top: 40px;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .form__input {
+        width: auto;
+        margin: 0 0 20px;
+        padding: 10px 0;
+    }
+    .form__submit {
+        border: 1px solid #f34646;
+    }
+    .credits {
+        margin-bottom: 20px;
+    }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    .qoute:after {
+        bottom: -12px;
+        right: 330px;
+    }
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+    }
+    .offer__title {
+        width: auto;
+    }
+    .offer__text {
+        font-size: 13px;
+    }
+    .wheel {
+        width: 100%;
+        max-width: 378px;
+    }
+    .devises {
+        width: 100%;
+        max-width: 370px;
+    }
+    .list__item {
+        padding: 0;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .author {
+        margin: 25px auto 0;
+        text-align: center;
+    }
+    .icons {
+        margin: 0 auto;
+    }
+    .qoute:before {
+        top: -5px;
+        left: -15px;
+    }
+    .qoute:after {
+        bottom: -12px;
+        right: 120px;
+    }
+    .registration__text {
+        width: auto;
+    }
+}

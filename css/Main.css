@@ -1,0 +1,447 @@
+/*--------- Fonts Open Sans ----------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans-ExtraBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/*---------- Specification ----------*/
+
+body {
+    font-family: 'OpenSans-Regular', sans-serif;
+    color: #000;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: px;
+    margin: 0 auto; 
+}
+
+div, p, form, input, button, a, span {
+    box-sizing: border-box;
+}
+
+a, button, input {
+    font-family: 'OpenSans-ExtraBold';
+    font-size: px;
+    letter-spacing: em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+
+p {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 1em;
+    line-height: 1.7em;
+    letter-spacing: 0.02em;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'OpenSans-ExtraBold';
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 21px;
+    letter-spacing: 0.2em;
+    
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: px;
+    line-height: em;
+}
+
+section {
+    padding-bottom: 73px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.btn {
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #f34646;
+    border: 1px solid #f34646;
+    border-radius: 5px;
+    display: block;
+    width: 272px;
+    padding: 24px 0;
+
+}
+
+.btn:hover {
+  color: #fff;
+  background: #f34646;
+  box-shadow: 0 0 5px #f34646;
+}
+
+.btn:active {
+    box-shadow: 0 0 15px #f34646;
+}
+
+.btn:focus {
+    box-shadow: 0 0 15px #be1717 inset;
+}
+
+.red-font {
+    color: #f34646;
+}
+
+/*---------- Hero screen ----------*/
+
+.header {
+    padding-top: 33px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 15px;
+    letter-spacing: 0.24em;
+    color: #000;
+    border-bottom: 1px solid #c5c1c1;
+}
+
+.logo:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.info {
+    text-transform: uppercase;
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+}
+
+.info__item_left {
+    margin-right: 30px;
+}
+
+.mail {
+    font-family: 'OpenSans-Light';
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    border-bottom: 1px solid #c5c1c1;
+    margin-right: auto;
+}
+
+.mail:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.offer {
+    padding: 160px 0 180px;
+}
+
+.offer__title {
+    width: 454px;
+}
+
+.offer__text {
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 18px;
+    line-height: 1.9em;
+    margin: 25px 0 50px;
+}
+
+.wheel {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    padding: 160px 0 160px; 
+
+    animation-name: spin;
+    animation-duration: 60000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.wheel-b {
+    position: absolute;
+    width: 50%;
+    top: 0px;
+    left: -60px;
+
+    animation-name: spin-b;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin-b {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+/*---------- Topics ----------*/
+
+.topic__text {
+    margin-top: 22px;
+    letter-spacing: normal;
+}
+
+.topic__text_short {
+    letter-spacing: 0.002em;
+}
+
+/*---------- Reasons ----------*/
+
+.devises {
+    margin-left: 68px;
+}
+
+.list {
+    margin-left: 47px;
+}
+
+.list__item {
+    position: relative;
+    padding: 0 63px 0 0;
+    margin: 40px 0 0;
+}
+
+.list__title {
+    margin-bottom: 15px;
+}
+
+.list__index {
+    position: absolute;
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 47px;
+    top: -25px;
+    left: -57px;
+
+}
+
+/*---------- Host ----------*/
+
+.author {
+    margin: 0 0 0 48px;
+}
+
+.author__title {
+    margin: 0 0 10px;
+}
+
+.author__link {
+    font-family: 'OpenSans-Light';
+    font-size: 12px;
+    letter-spacing: 0.24em; 
+    text-transform: uppercase;
+    color: #000;
+}
+
+.author__link:hover {
+    color: #000;
+}
+
+.icons {
+    width: 140px;
+    margin: 10px 0 0;
+}
+
+.icons__link {
+    font-size: 14px;
+    letter-spacing: 0.24em; 
+    color: #000;
+}
+.icons__link:hover {
+    font-size: 16px;
+}
+
+.qoute {
+    font-style: italic;
+    position: relative;
+    margin: 35px 0 0 25px;
+}
+
+.qoute:after {
+    position: absolute;
+    display: block;
+    content: '"';
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 22px;
+    bottom: -10px;
+    right: 130px;
+}
+
+.qoute:before {
+    position: absolute;
+    display: block;
+    content: '"';
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 22px;
+    top: -5px;
+    left: -25px;
+}
+
+.ditailes__item i {
+    font-size: 25px;
+}
+
+.ditailes__item:nth-child(2n) {
+    margin: 20px 0;
+}
+
+.ditailes__text {
+    margin: 0 0 0 35px;
+    letter-spacing: 0.003em;
+}
+
+/*---------- Registration ----------*/
+
+.registration__title {
+    margin-bottom: 15px;
+}
+
+.registration__text {
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 14px;
+    width: 540px;
+}
+
+.start {
+    margin: 30px 0 50px;
+}
+
+.start__item:nth-child(2) {
+    margin-left: 30px;
+}
+
+.start__item i {
+    font-size: 15px;
+}
+
+.start__item p {
+    font-family: 'OpenSans-ExtraBold';
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.form {
+
+}
+
+input {
+    width: 220px;
+    font-family: 'OpenSans-Regular';
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid#adadad;
+    margin-right: 30px;
+}
+
+input:focus {
+    color: #000;
+    border: none;
+    border-bottom: 1px solid#000;
+}
+
+.form__submit {
+    background: none;
+    border: none;
+    padding: 10px 0;
+}
+
+/*---------- Footer ----------*/
+
+.footer {
+    padding: 0 0 80px;
+}
+
+.credits {
+    font-family: 'OpenSans-Light';
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+a.credits {
+    color: #000;
+    border-bottom: 1px dotted#000;
+}
+
+a.credits:hover {
+    text-decoration: none;
+}
+
